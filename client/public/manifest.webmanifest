@@ -1,0 +1,11 @@
+{
+  "name": "ZeeTube — Video & Media",
+  "short_name": "ZeeTube",
+  "description": "Discover public videos, watch with the official player, and organize your personal media.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f6f7f9",
+  "theme_color": "#f6f7f9",
+  "icons": [{ "src": "/zeetube-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}

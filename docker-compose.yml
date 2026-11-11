@@ -1,0 +1,12 @@
+services:
+  mongodb:
+    image: mongo:7
+    restart: unless-stopped
+    environment:
+      MONGO_INITDB_DATABASE: zeetube
+    ports:
+      - "127.0.0.1:27017:27017"
+    volumes:
+      - zeetube-mongo-data:/data/db
+volumes:
+  zeetube-mongo-data:
